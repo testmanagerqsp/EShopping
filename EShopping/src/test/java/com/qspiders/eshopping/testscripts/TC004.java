@@ -11,12 +11,12 @@ import com.qspiders.eshopping.pages.ProductDetailsPage;
 
 public class TC004 extends BaseTest {
 	
-	@DataProvider
+	@DataProvider(name="credentials")
 	public String[][] getData(){
 		return ExcelLibrary.getMultipleData("TC003");
 	}
 	
-	@Test(dataProvider="getData",description="Add the Product to ODP and verify it is displayed in ODP")
+	@Test(dataProvider="credentials",description="Add the Product to ODP and verify it is displayed in ODP")
 	public void testProductInODP(String menuLinkName,
 								 String productId,
 								 String quantity,
