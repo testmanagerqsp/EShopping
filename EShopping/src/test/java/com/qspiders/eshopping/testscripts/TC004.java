@@ -23,7 +23,7 @@ public class TC004 extends BaseTest {
 								 String increase,
 								 String size,
 								 String colorName) {
-		productId=productId.split("\\.")[0];
+		productId=productId.split("\\.") [0];
 		DressesPage dressPage=(DressesPage)homePage.clickOnMenu(menuLinkName);
 		ProductDetailsPage productDetailsPage = dressPage.clickOnProduct(productId);
 		int qty = (int) Double.parseDouble(quantity);
