@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="32002" started-at="2021-04-15T13:27:42 IST" finished-at="2021-04-15T13:28:14 IST">
+  <suite name="Suite" duration-ms="90929" started-at="2021-04-16T12:23:08 IST" finished-at="2021-04-16T12:24:39 IST">
     <groups>
     </groups>
-    <test name="ChromeTest" duration-ms="32002" started-at="2021-04-15T13:27:42 IST" finished-at="2021-04-15T13:28:14 IST">
-      <class name="com.qspiders.eshopping.testscripts.TC001">
-        <test-method status="PASS" signature="openApp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qspiders.eshopping.testscripts.TC001@3234e239]" name="openApp" is-config="true" duration-ms="12526" started-at="2021-04-15T13:27:42 IST" finished-at="2021-04-15T13:27:54 IST">
+    <test name="ChromeTest" duration-ms="90929" started-at="2021-04-16T12:23:08 IST" finished-at="2021-04-16T12:24:39 IST">
+      <class name="com.qspiders.eshopping.testscripts.TC004">
+        <test-method status="PASS" signature="openApp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qspiders.eshopping.testscripts.TC004@27808f31]" name="openApp" is-config="true" duration-ms="11758" started-at="2021-04-16T12:23:08 IST" finished-at="2021-04-16T12:23:20 IST">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.qspiders.eshopping.testscripts.TC001@3234e239]" name="login" is-config="true" duration-ms="6487" started-at="2021-04-15T13:27:54 IST" finished-at="2021-04-15T13:28:01 IST">
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.qspiders.eshopping.testscripts.TC004@27808f31]" name="login" is-config="true" duration-ms="6138" started-at="2021-04-16T12:23:21 IST" finished-at="2021-04-16T12:23:27 IST">
           <params>
             <param index="0">
               <value>
@@ -49,26 +49,310 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="testProductInODP()[pri:0, instance:com.qspiders.eshopping.testscripts.TC001@3234e239]" name="testProductInODP" duration-ms="10228" started-at="2021-04-15T13:28:01 IST" description="Add the Product to ODP and verify it is displayed in ODP" finished-at="2021-04-15T13:28:11 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testProductInODP -->
-        <test-method status="PASS" signature="logout(org.testng.ITestResult)[pri:0, instance:com.qspiders.eshopping.testscripts.TC001@3234e239]" name="logout" is-config="true" duration-ms="1981" started-at="2021-04-15T13:28:11 IST" finished-at="2021-04-15T13:28:13 IST">
+        <test-method status="PASS" signature="testProductInODP(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qspiders.eshopping.testscripts.TC004@27808f31]" name="testProductInODP" duration-ms="10921" started-at="2021-04-16T12:23:27 IST" description="Add the Product to ODP and verify it is displayed in ODP" data-provider="credentials" finished-at="2021-04-16T12:23:38 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testProductInODP status=SUCCESS method=TC001.testProductInODP()[pri:0, instance:com.qspiders.eshopping.testscripts.TC001@3234e239] output={null}]]]>
+                <![CDATA[Dresses]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[L]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Orange]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductInODP -->
+        <test-method status="PASS" signature="logout(org.testng.ITestResult)[pri:0, instance:com.qspiders.eshopping.testscripts.TC004@27808f31]" name="logout" is-config="true" duration-ms="4062" started-at="2021-04-16T12:23:38 IST" finished-at="2021-04-16T12:23:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductInODP status=SUCCESS method=TC004.testProductInODP(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qspiders.eshopping.testscripts.TC004@27808f31] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.qspiders.eshopping.testscripts.TC001@3234e239]" name="closeApp" is-config="true" duration-ms="747" started-at="2021-04-15T13:28:13 IST" finished-at="2021-04-15T13:28:14 IST">
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.qspiders.eshopping.testscripts.TC004@27808f31]" name="login" is-config="true" duration-ms="7297" started-at="2021-04-16T12:23:42 IST" finished-at="2021-04-16T12:23:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nameishemanth@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testProductInODP(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qspiders.eshopping.testscripts.TC004@27808f31]" name="testProductInODP" duration-ms="7062" started-at="2021-04-16T12:23:49 IST" description="Add the Product to ODP and verify it is displayed in ODP" data-provider="credentials" finished-at="2021-04-16T12:23:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dresses]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Pink]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductInODP -->
+        <test-method status="PASS" signature="logout(org.testng.ITestResult)[pri:0, instance:com.qspiders.eshopping.testscripts.TC004@27808f31]" name="logout" is-config="true" duration-ms="1912" started-at="2021-04-16T12:23:56 IST" finished-at="2021-04-16T12:23:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductInODP status=SUCCESS method=TC004.testProductInODP(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qspiders.eshopping.testscripts.TC004@27808f31] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.qspiders.eshopping.testscripts.TC004@27808f31]" name="login" is-config="true" duration-ms="5241" started-at="2021-04-16T12:23:58 IST" finished-at="2021-04-16T12:24:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nameishemanth@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testProductInODP(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qspiders.eshopping.testscripts.TC004@27808f31]" name="testProductInODP" duration-ms="6504" started-at="2021-04-16T12:24:03 IST" description="Add the Product to ODP and verify it is displayed in ODP" data-provider="credentials" finished-at="2021-04-16T12:24:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dresses]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Blue]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductInODP -->
+        <test-method status="PASS" signature="logout(org.testng.ITestResult)[pri:0, instance:com.qspiders.eshopping.testscripts.TC004@27808f31]" name="logout" is-config="true" duration-ms="1568" started-at="2021-04-16T12:24:10 IST" finished-at="2021-04-16T12:24:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductInODP status=SUCCESS method=TC004.testProductInODP(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qspiders.eshopping.testscripts.TC004@27808f31] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.qspiders.eshopping.testscripts.TC004@27808f31]" name="login" is-config="true" duration-ms="3885" started-at="2021-04-16T12:24:11 IST" finished-at="2021-04-16T12:24:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nameishemanth@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testProductInODP(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qspiders.eshopping.testscripts.TC004@27808f31]" name="testProductInODP" duration-ms="7097" started-at="2021-04-16T12:24:15 IST" description="Add the Product to ODP and verify it is displayed in ODP" data-provider="credentials" finished-at="2021-04-16T12:24:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dresses]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[White]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductInODP -->
+        <test-method status="PASS" signature="logout(org.testng.ITestResult)[pri:0, instance:com.qspiders.eshopping.testscripts.TC004@27808f31]" name="logout" is-config="true" duration-ms="1729" started-at="2021-04-16T12:24:22 IST" finished-at="2021-04-16T12:24:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductInODP status=SUCCESS method=TC004.testProductInODP(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qspiders.eshopping.testscripts.TC004@27808f31] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.qspiders.eshopping.testscripts.TC004@27808f31]" name="login" is-config="true" duration-ms="4044" started-at="2021-04-16T12:24:24 IST" finished-at="2021-04-16T12:24:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nameishemanth@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testProductInODP(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qspiders.eshopping.testscripts.TC004@27808f31]" name="testProductInODP" duration-ms="8507" started-at="2021-04-16T12:24:28 IST" description="Add the Product to ODP and verify it is displayed in ODP" data-provider="credentials" finished-at="2021-04-16T12:24:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dresses]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[L]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Green]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductInODP -->
+        <test-method status="PASS" signature="logout(org.testng.ITestResult)[pri:0, instance:com.qspiders.eshopping.testscripts.TC004@27808f31]" name="logout" is-config="true" duration-ms="1541" started-at="2021-04-16T12:24:37 IST" finished-at="2021-04-16T12:24:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductInODP status=SUCCESS method=TC004.testProductInODP(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qspiders.eshopping.testscripts.TC004@27808f31] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.qspiders.eshopping.testscripts.TC004@27808f31]" name="closeApp" is-config="true" duration-ms="788" started-at="2021-04-16T12:24:38 IST" finished-at="2021-04-16T12:24:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-      </class> <!-- com.qspiders.eshopping.testscripts.TC001 -->
+      </class> <!-- com.qspiders.eshopping.testscripts.TC004 -->
     </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>
